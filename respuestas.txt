@@ -1,0 +1,15 @@
+a) ¿Cuál es el punto más débil de PGP?
+La passphrase de la clave privada, porque si es débil o se filtra, cualquier atacante puede usar tu llave privada.
+
+b) ¿Cuándo es conveniente utilizar solamente cifrado simétrico?
+Cuando solo una persona necesita proteger archivos para sí mismo o cuando se comparte una clave en un entorno cerrado y seguro (ejemplo: respaldos personales).
+
+c) ¿En qué consiste el ciclo de vida del desarrollo de software seguro (SSDLC, etapa por etapa)?
+
+Planificación: Definir requerimientos y amenazas.
+Análisis: Identificar riesgos de seguridad.
+Diseño: Incluir medidas de seguridad desde el diseño.
+Implementación: Codificación siguiendo buenas prácticas seguras.
+Pruebas: Test de seguridad (penetración, revisión de código).
+Despliegue: Configuración segura al poner en producción.
+Mantenimiento: Actualización, monitoreo y parches de seguridad.
